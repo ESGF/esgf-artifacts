@@ -64,8 +64,8 @@ Note: Check Maven for propery dependency parameter values @
       http://mvnrepository.com/
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
-  <info organisation="org.esgf" module="esgf-node-manager" revision="0.6.19" status="milestone" publication="20130910090648">
-    <description homepage="http://esgf.org/esgf-node-manager-site/"/>
+  <info organisation="org.esgf" module="esgf-node-manager" revision="0.6.19" status="milestone" publication="20140331154514">
+    <description homepage="http://esgf.org/esgf-node-manager/"/>
   </info>
 
   <configurations>
