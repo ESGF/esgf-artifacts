@@ -1,5 +1,5 @@
 <ivy-settings>
-  <property name="ivy.esgf-repo-local.default.root.dir" value="${user.home}/.ivy2/local/repositories/esgf-repo-devel" override="true"/>
+  <property name="ivy.esgf-repo-local.default.root.dir" value="${user.home}/.ivy2/local/esgf-artifacts/repositories/esgf-repo-devel" override="true"/>
   <resolvers>
     <filesystem name="esgf_repo_local">
       <ivy pattern="${ivy.esgf-repo-local.default.root.dir}/[organisation]/[module]/[revision]/ivy-[revision].xml" />
