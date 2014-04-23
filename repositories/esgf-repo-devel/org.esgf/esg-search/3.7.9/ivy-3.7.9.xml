@@ -57,10 +57,10 @@ Note: Check Maven for propery dependency parameter values @
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
             
-  <info organisation="org.esgf" module="esg-search" revision="3.7.9" status="milestone" publication="20140407065439"/>
+  <info organisation="org.esgf" module="esg-search" revision="3.7.9" status="milestone" publication="20140423124931"/>
   <dependencies>
       
-    <dependency org="org.esgf" name="esgf-node-manager" rev="0.6.19" revConstraint="latest.milestone"/>
+    <dependency org="org.esgf" name="esgf-node-manager" rev="0.7.0" revConstraint="latest.milestone"/>
 
     <dependency org="net.sourceforge.cobertura" name="cobertura" rev="1.9.4" conf="default->default"/>
     <dependency org="commons-codec" name="commons-codec" rev="1.4"/>
@@ -97,10 +97,10 @@ Note: Check Maven for propery dependency parameter values @
     <dependency org="org.springframework.security" name="spring-security-core" rev="3.1.4.RELEASE" transitive="false"/>
     <dependency org="org.springframework.security" name="spring-security-web" rev="3.1.4.RELEASE" transitive="false"/>
     
-    <dependency org="org.esgf" name="esg-orp" rev="2.3.6" revConstraint="latest.milestone">
+    <dependency org="org.esgf" name="esg-orp" rev="2.3.9" revConstraint="latest.milestone">
             <exclude org="com.google.code.guice"/>
     </dependency>    
-    <dependency org="org.esgf" name="esgf-security" rev="2.4.0" revConstraint="latest.milestone"/>
+    <dependency org="org.esgf" name="esgf-security" rev="2.5.0" revConstraint="latest.milestone"/>
 
     
     <dependency org="org.jdom" name="jdom" rev="1.1"/>
