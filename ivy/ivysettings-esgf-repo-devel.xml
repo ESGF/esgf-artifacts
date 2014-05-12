@@ -1,5 +1,5 @@
 <ivy-settings>
-  <property name="ivy.esgf-repo-devel.default.root.url" value="https://raw.github.com/ESGF/esgf-artifacts/master/repositories/esgf-repo-devel" override="true"/>
+  <property name="ivy.esgf-repo-devel.default.root.url" value="https://raw.githubusercontent.com/ESGF/esgf-artifacts/master/repositories/esgf-repo-devel" override="true"/>
   <resolvers>
       <url name="esgf_repo_devel">
         <ivy pattern="${ivy.esgf-repo-devel.default.root.url}/[organisation]/[module]/[revision]/ivy-[revision].xml" />
