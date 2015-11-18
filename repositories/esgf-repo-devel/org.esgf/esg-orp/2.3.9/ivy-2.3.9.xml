@@ -57,7 +57,7 @@ Note: Check Maven for propery dependency parameter values @
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info organisation="org.esgf" module="esg-orp" revision="2.3.9" status="milestone" publication="20140423123313"/>
+  <info organisation="org.esgf" module="esg-orp" revision="2.3.9" status="milestone" publication="20150312100039"/>
 
   <publications>
     <artifact name="esg-orp" type="jar" conf="*"/>
@@ -132,7 +132,7 @@ Note: Check Maven for propery dependency parameter values @
     <dependency org="org.openid4java" name="openid4java" rev="0.9.6"/>
     
     <dependency org="edu.ucar.unidata" name="tds" rev="4.1"/>
-    <dependency org="org.esgf" name="esgf-security" rev="2.5.0" revConstraint="latest.milestone" transitive="false"/>
+    <dependency org="org.esgf" name="esgf-security" rev="2.5.2" revConstraint="latest.milestone" transitive="false"/>
 
     <dependency org="javax.servlet" name="javax.servlet-api" rev="3.0.1"/>
 

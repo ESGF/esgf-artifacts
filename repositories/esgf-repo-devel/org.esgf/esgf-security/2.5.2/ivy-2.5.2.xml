@@ -57,7 +57,7 @@ Note: Check Maven for propery dependency parameter values @
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
                       
-  <info organisation="org.esgf" module="esgf-security" revision="2.5.2" status="milestone" publication="20150227181401"/>
+  <info organisation="org.esgf" module="esgf-security" revision="2.5.2" status="milestone" publication="20150619081407"/>
   
   <configurations>
         <conf name="default" description="Compilation and runtime configuration."/>
@@ -129,7 +129,7 @@ Note: Check Maven for propery dependency parameter values @
     <dependency org="joda-time" name="joda-time" rev="2.0" conf="endorsed->default"/>
     <dependency org="log4j" name="log4j" rev="1.2.17" conf="endorsed->default" transitive="false"/>
     <dependency org="javax.mail" name="mail" rev="1.4.4" conf="endorsed->default" transitive="false"/>
-    <dependency org="xml-apis" name="xml-apis" rev="2.0.2" conf="endorsed->default"/>
+    <dependency org="xml-apis" name="xml-apis" rev="1.4.01"/>
     <!-- <dependency org="org.apache" name="xsltc" rev="" conf="endorsed->default" /> -->
     
     <!-- runtime and endorsed dependencies -->
