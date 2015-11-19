@@ -57,7 +57,7 @@ Note: Check Maven for propery dependency parameter values @
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info organisation="org.esgf" module="esg-orp" revision="2.4.10" status="milestone" publication="20151117164503"/>
+  <info organisation="org.esgf" module="esg-orp" revision="2.4.10" status="milestone" publication="20151119102120"/>
 
   <publications>
     <artifact name="esg-orp" type="jar" conf="*"/>
@@ -110,8 +110,8 @@ Note: Check Maven for propery dependency parameter values @
     
     <dependency org="org.apache.tiles" name="tiles-template" rev="2.2.2" conf="*->default"/>
 
-    <dependency org="javax.servlet" name="jstl" rev="1.2" transitive="false"/>
-    <dependency org="taglibs" name="standard" rev="1.1.2" transitive="false"/>
+    <dependency org="org.apache.taglibs" name="taglibs-standard-spec" rev="1.2.5"/>
+    <dependency org="org.apache.taglibs" name="taglibs-standard-impl" rev="1.2.5"/>
     
     <dependency org="org.jdom" name="jdom" rev="1.1"/>
 

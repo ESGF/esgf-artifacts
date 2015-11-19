@@ -57,7 +57,7 @@ Note: Check Maven for propery dependency parameter values @
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
                       
-  <info organisation="org.esgf" module="esgf-security" revision="2.5.10" status="milestone" publication="20151117163457"/>
+  <info organisation="org.esgf" module="esgf-security" revision="2.5.10" status="milestone" publication="20151119101317"/>
   
   <configurations>
         <conf name="default" description="Compilation and runtime configuration."/>
@@ -71,7 +71,7 @@ Note: Check Maven for propery dependency parameter values @
 
   <dependencies>
 
-    <dependency org="org.esgf" name="esgf-node-manager" rev="0.7.1" revConstraint="latest.milestone"/>
+    <dependency org="org.esgf" name="esgf-node-manager" rev="0.7.9" revConstraint="latest.milestone"/>
 
     <dependency org="commons-logging" name="commons-logging" rev="1.1.1" conf="default->default"/>
     <dependency org="log4j" name="log4j" rev="1.2.16" conf="default->default">
@@ -140,8 +140,8 @@ Note: Check Maven for propery dependency parameter values @
     <dependency org="xerces" name="xercesImpl" rev="2.9.1" conf="default->default; endorsed->default"/>
     
     <!-- jars needed for JSP views -->
-    <dependency org="javax.servlet" name="jstl" rev="1.2" transitive="false"/>
-    <dependency org="taglibs" name="standard" rev="1.1.2" transitive="false"/>
+    <dependency org="org.apache.taglibs" name="taglibs-standard-spec" rev="1.2.5"/>
+    <dependency org="org.apache.taglibs" name="taglibs-standard-impl" rev="1.2.5"/>
     
   </dependencies>
 </ivy-module>
