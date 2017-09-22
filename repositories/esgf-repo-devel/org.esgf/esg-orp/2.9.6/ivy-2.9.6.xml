@@ -57,7 +57,7 @@ Note: Check Maven for propery dependency parameter values @
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
 
-  <info organisation="org.esgf" module="esg-orp" revision="2.9.6" status="milestone" publication="20170720122138"/>
+  <info organisation="org.esgf" module="esg-orp" revision="2.9.6" status="milestone" publication="20170922100333"/>
 
   <publications>
     <artifact name="esg-orp" type="jar" conf="*"/>
@@ -74,12 +74,13 @@ Note: Check Maven for propery dependency parameter values @
       <exclude org="javax.jms"/>
     </dependency>
     <dependency org="junit" name="junit" rev="4.8.1"/>
+    <dependency org="org.mockito" name="mockito-all" rev="1.10.19"/>
     <dependency org="com.sun.xml.bind" name="jaxb-xjc" rev="2.2"/>
 
     <dependency org="com.caucho" name="hessian" rev="3.0.20"/>
 
     <dependency org="commons-beanutils" name="commons-beanutils" rev="1.9.2"/>
-    <dependency org="commons-codec" name="commons-codec" rev="1.4"/>
+    <dependency org="commons-codec" name="commons-codec" rev="1.10"/>
     <dependency org="commons-collections" name="commons-collections" rev="3.2.2"/>
     <dependency org="commons-digester" name="commons-digester" rev="2.0"/>
     <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.1"/>
