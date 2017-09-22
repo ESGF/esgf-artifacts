@@ -57,7 +57,7 @@ Note: Check Maven for propery dependency parameter values @
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
                       
-  <info organisation="org.esgf" module="esgf-security" revision="2.7.15" status="milestone" publication="20170720113827"/>
+  <info organisation="org.esgf" module="esgf-security" revision="2.7.15" status="milestone" publication="20170922095844"/>
   
   <configurations>
         <conf name="default" description="Compilation and runtime configuration."/>
@@ -71,7 +71,7 @@ Note: Check Maven for propery dependency parameter values @
 
   <dependencies>
 
-    <dependency org="org.esgf" name="esgf-node-manager" rev="0.7.23" revConstraint="latest.milestone"/>
+    <dependency org="org.esgf" name="esgf-node-manager" rev="1.0.0" revConstraint="latest.milestone"/>
 
     <dependency org="commons-logging" name="commons-logging" rev="1.1.1" conf="default->default"/>
     <dependency org="log4j" name="log4j" rev="1.2.16" conf="default->default">
