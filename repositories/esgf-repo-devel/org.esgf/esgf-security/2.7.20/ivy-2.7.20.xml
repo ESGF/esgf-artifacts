@@ -57,7 +57,7 @@ Note: Check Maven for propery dependency parameter values @
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
                       
-  <info organisation="org.esgf" module="esgf-security" revision="2.7.20" status="milestone" publication="20181001114351"/>
+  <info organisation="org.esgf" module="esgf-security" revision="2.7.20" status="milestone" publication="20181001145035"/>
   
   <configurations>
         <conf name="default" description="Compilation and runtime configuration."/>
