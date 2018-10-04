@@ -9,6 +9,7 @@
       <resolver ref="public"/>
       <resolver ref="spring-release"/>
       <resolver ref="spring-external"/>
+      <resolver ref="alfresco" />
     </chain>
   </resolvers>
 </ivysettings>

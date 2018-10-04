@@ -1,0 +1,11 @@
+<ivysettings>
+    <property name="ivy.alfresco.repository.url"
+              value="https://artifacts.alfresco.com/nexus/content/groups/public"
+              override="true"/>
+    <resolvers>
+        <url name="alfresco" m2compatible="true">
+            <ivy pattern="${ivy.alfresco.repository.url}/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"/>
+            <artifact pattern="${ivy.alfresco.repository.url}/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"/>
+        </url>
+    </resolvers>
+</ivysettings>
