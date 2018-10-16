@@ -1,0 +1,11 @@
+<ivysettings>
+    <property name="ivy.shibboleth.repository.url"
+              value="https://build.shibboleth.net/nexus/content/repositories/releases/"
+              override="true"/>
+    <resolvers>
+        <url name="shibboleth" m2compatible="true">
+            <ivy pattern="${ivy.shibboleth.repository.url}/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"/>
+            <artifact pattern="${ivy.shibboleth.repository.url}/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"/>
+        </url>
+    </resolvers>
+</ivysettings>

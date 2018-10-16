@@ -10,6 +10,7 @@
       <resolver ref="spring-release"/>
       <resolver ref="spring-external"/>
       <resolver ref="alfresco" />
+      <resolver ref="shibboleth" />
     </chain>
   </resolvers>
 </ivysettings>
